@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: var(--font-playfair), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+/* Custom Base Styles */
+@layer base {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-serif);
+    @apply text-slate-900;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    @apply text-slate-700 bg-slate-50 antialiased;
+    background-image: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+    min-height: 100vh;
+  }
+}
