@@ -43,7 +43,7 @@ export default function Research() {
                         {projects.map((project, idx) => (
                             <div key={idx} className="bg-white rounded-lg border border-slate-200 shadow-sm p-6 hover:shadow-md transition-shadow">
                                 <div className="flex justify-between items-start mb-4">
-                                    <div className="text-xs font-semibold tracking-wider text-indigo-600 uppercase bg-indigo-50 px-2 py-1 rounded">
+                                    <div className="text-xs font-semibold tracking-wider text-slate-700 uppercase bg-slate-100 px-2 py-1 rounded">
                                         {project.category}
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ export default function Research() {
                                 <div className="flex gap-4">
                                     <Link
                                         href={`/research/${project.slug}`}
-                                        className="inline-flex items-center text-sm font-medium text-slate-900 hover:text-indigo-600 transition-colors"
+                                        className="inline-flex items-center text-sm font-medium text-slate-900 hover:text-slate-700 transition-colors"
                                     >
                                         <ArrowUpRight className="mr-2 h-4 w-4" />
                                         View Details

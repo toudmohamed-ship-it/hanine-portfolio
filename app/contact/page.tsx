@@ -16,14 +16,14 @@ export default function Contact() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-8 border-t border-b border-slate-100">
                         <div className="flex items-start gap-4">
-                            <div className="bg-indigo-50 p-3 rounded-full text-indigo-600">
+                            <div className="bg-slate-100 p-3 rounded-full text-slate-900">
                                 <Mail className="h-6 w-6" />
                             </div>
                             <div>
                                 <h3 className="text-lg font-medium text-slate-900">Email</h3>
                                 <a
                                     href={`mailto:${personalInfo.email}`}
-                                    className="text-indigo-600 hover:text-indigo-800 transition-colors mt-1 block"
+                                    className="text-slate-900 hover:text-slate-600 transition-colors mt-1 block font-medium"
                                 >
                                     {personalInfo.email}
                                 </a>
@@ -31,7 +31,7 @@ export default function Contact() {
                         </div>
 
                         <div className="flex items-start gap-4">
-                            <div className="bg-indigo-50 p-3 rounded-full text-indigo-600">
+                            <div className="bg-slate-100 p-3 rounded-full text-slate-900">
                                 <MapPin className="h-6 w-6" />
                             </div>
                             <div>
@@ -52,7 +52,7 @@ export default function Contact() {
                                 <input
                                     type="text"
                                     id="name"
-                                    className="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border"
+                                    className="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-slate-500 focus:ring-slate-500 sm:text-sm p-2 border"
                                     placeholder="Your Name"
                                 />
                             </div>
@@ -61,7 +61,7 @@ export default function Contact() {
                                 <input
                                     type="email"
                                     id="email"
-                                    className="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border"
+                                    className="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-slate-500 focus:ring-slate-500 sm:text-sm p-2 border"
                                     placeholder="you@example.com"
                                 />
                             </div>
@@ -71,13 +71,13 @@ export default function Contact() {
                             <textarea
                                 id="message"
                                 rows={4}
-                                className="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2 border"
+                                className="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-slate-500 focus:ring-slate-500 sm:text-sm p-2 border"
                                 placeholder="How can we collaborate?"
                             ></textarea>
                         </div>
                         <button
                             type="submit"
-                            className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                            className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-slate-900 hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500"
                         >
                             Send Message
                         </button>

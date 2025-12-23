@@ -8,6 +8,19 @@
 /* Custom Base Styles */
 @layer base {
 
+  /* Academic Theme Colors */
+  :root {
+    --bg-paper: #fdfbf7;
+    --text-primary: #1e293b;
+    /* Slate-800 - Deep & Readable */
+    --text-secondary: #475569;
+    /* Slate-600 */
+    --accent-navy: #0f172a;
+    /* Deep Navy */
+    --accent-blue: #2563eb;
+    /* Royal Blue for links/highlights */
+  }
+
   h1,
   h2,
   h3,
@@ -20,8 +33,12 @@
 
   body {
     font-family: var(--font-sans);
-    @apply text-slate-700 bg-slate-50 antialiased;
-    background-image: linear-gradient(to bottom, #f8fafc, #f1f5f9);
+    color: var(--text-primary);
+    background-color: var(--bg-paper);
+    /* Subtle noise texture using a data URI */
+    background-image:
+      linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.4)),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
     min-height: 100vh;
   }
 }

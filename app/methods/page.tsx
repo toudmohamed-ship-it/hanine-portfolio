@@ -18,7 +18,7 @@ export default function Methods() {
                     {/* Research Methods */}
                     <div className="space-y-6">
                         <div className="flex items-center gap-3">
-                            <div className="p-3 bg-indigo-50 rounded-lg text-indigo-600">
+                            <div className="p-3 bg-slate-100 rounded-lg text-slate-900">
                                 <TrendingUp className="h-6 w-6" />
                             </div>
                             <h2 className="text-2xl font-serif font-medium text-slate-900">Research Methods</h2>
@@ -26,7 +26,7 @@ export default function Methods() {
                         <ul className="space-y-3">
                             {skills.methods.map((item, idx) => (
                                 <li key={idx} className="flex items-center text-slate-700 bg-slate-50 px-4 py-3 rounded-md border border-slate-100">
-                                    <span className="w-2 h-2 bg-indigo-500 rounded-full mr-3"></span>
+                                    <span className="w-2 h-2 bg-slate-600 rounded-full mr-3"></span>
                                     {item}
                                 </li>
                             ))}
@@ -36,7 +36,7 @@ export default function Methods() {
                     {/* Tools & Software */}
                     <div className="space-y-6">
                         <div className="flex items-center gap-3">
-                            <div className="p-3 bg-indigo-50 rounded-lg text-indigo-600">
+                            <div className="p-3 bg-slate-100 rounded-lg text-slate-900">
                                 <Database className="h-6 w-6" />
                             </div>
                             <h2 className="text-2xl font-serif font-medium text-slate-900">Tools</h2>
@@ -53,7 +53,7 @@ export default function Methods() {
                     {/* Soft Skills */}
                     <div className="space-y-6">
                         <div className="flex items-center gap-3">
-                            <div className="p-3 bg-indigo-50 rounded-lg text-indigo-600">
+                            <div className="p-3 bg-slate-100 rounded-lg text-slate-900">
                                 <TrendingUp className="h-6 w-6" /> {/* Reusing icon or import new one like Users */}
                             </div>
                             <h2 className="text-2xl font-serif font-medium text-slate-900">Soft Skills</h2>
@@ -61,7 +61,7 @@ export default function Methods() {
                         <ul className="space-y-3">
                             {skills.softSkills.map((item, idx) => (
                                 <li key={idx} className="flex items-center text-slate-700">
-                                    <span className="w-1.5 h-1.5 bg-indigo-400 rounded-full mr-3"></span>
+                                    <span className="w-1.5 h-1.5 bg-slate-400 rounded-full mr-3"></span>
                                     {item}
                                 </li>
                             ))}
@@ -71,7 +71,7 @@ export default function Methods() {
                     {/* Languages or Other Skills (if any) */}
                     <div className="space-y-6">
                         <div className="flex items-center gap-3">
-                            <div className="p-3 bg-indigo-50 rounded-lg text-indigo-600">
+                            <div className="p-3 bg-slate-100 rounded-lg text-slate-900">
                                 <Code className="h-6 w-6" />
                             </div>
                             <h2 className="text-2xl font-serif font-medium text-slate-900">Languages</h2>

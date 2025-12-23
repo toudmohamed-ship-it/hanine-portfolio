@@ -84,7 +84,7 @@ export default async function ProjectPage({ params }: { params: { slug: string }
                                 <Link
                                     href={project.file}
                                     target="_blank"
-                                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition-colors shadow-sm"
+                                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-slate-900 hover:bg-slate-800 transition-colors shadow-sm"
                                 >
                                     <FileText className="mr-2 h-5 w-5" />
                                     View Full Document
@@ -116,7 +116,7 @@ export default async function ProjectPage({ params }: { params: { slug: string }
                                 <ul className="space-y-3">
                                     {projectTools.map((tool, idx) => (
                                         <li key={idx} className="flex items-start text-slate-600 text-sm">
-                                            <CheckCircle className="h-4 w-4 text-indigo-500 mt-0.5 mr-2 flex-shrink-0" />
+                                            <CheckCircle className="h-4 w-4 text-slate-700 mt-0.5 mr-2 flex-shrink-0" />
                                             {tool}
                                         </li>
                                     ))}

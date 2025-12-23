@@ -38,7 +38,7 @@ export default function About() {
                                         <p className="text-slate-500 mt-1">{edu.details}</p>
                                     )}
                                     {edu.grade && (
-                                        <p className="text-sm font-medium text-indigo-600 mt-1">{edu.grade}</p>
+                                        <p className="text-sm font-medium text-slate-700 mt-1">{edu.grade}</p>
                                     )}
                                 </div>
                                 <div className="text-slate-500 font-medium whitespace-nowrap bg-slate-100 px-3 py-1 rounded-full text-sm self-start">

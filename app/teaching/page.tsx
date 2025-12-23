@@ -32,7 +32,7 @@ export default function Teaching() {
                                 <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
                                     <div>
                                         <h3 className="text-xl font-medium text-slate-900 flex items-center gap-2">
-                                            <BookOpen className="h-5 w-5 text-indigo-600" />
+                                            <BookOpen className="h-5 w-5 text-slate-900" />
                                             {role.role}
                                         </h3>
                                         <p className="text-lg text-slate-700">{role.university}</p>
