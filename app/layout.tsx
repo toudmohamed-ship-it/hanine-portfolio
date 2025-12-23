@@ -7,11 +7,11 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfa
 
 export const metadata: Metadata = {
   title: {
-    default: 'Hanine Toudghi | PhD Candidate in Digital Marketing',
+    default: 'Hanine Toudghi | PhD Candidate in AI & Digital Marketing',
     template: '%s | Hanine Toudghi',
   },
-  description: 'Academic portfolio of Hanine Toudghi, PhD Candidate at Al Akhawayn University. Specializing in Digital Marketing Analytics, Consumer Behavior, and Sustainable Marketing.',
-  keywords: ['Hanine Toudghi', 'PhD Candidate', 'Digital Marketing', 'Consumer Behavior', 'Academic Portfolio', 'Al Akhawayn University', 'Marketing Analytics'],
+  description: 'Academic portfolio of Hanine Toudghi, PhD Candidate at ENCG Settat. Specializing in Artificial Intelligence, Digital Marketing Analytics, Consumer Behavior, and Sustainable Marketing.',
+  keywords: ['Hanine Toudghi', 'PhD Candidate', 'Artificial Intelligence', 'Digital Marketing', 'Consumer Behavior', 'Academic Portfolio', 'ENCG Settat', 'Marketing Analytics'],
   authors: [{ name: 'Hanine Toudghi' }],
   creator: 'Hanine Toudghi',
   openGraph: {

@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: 'About Me',
-    description: 'Learn about Hanine Toudghi\'s academic background, education at Al Akhawayn University, and research motivation.',
+    description: 'Learn about Hanine Toudghi\'s academic background, research interests in AI & Marketing, and education at ENCG Settat and Al Akhawayn University.',
 };
 
 export default function About() {

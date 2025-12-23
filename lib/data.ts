@@ -1,23 +1,23 @@
 export const personalInfo = {
     name: "Hanine Toudghi",
-    title: "PhD Candidate in Digital Marketing & Analytics",
-    university: "Al Akhawayn University",
-    location: "Ifrane, Morocco",
-    email: "H.Toudghi@aui.ma", // Assumed format based on university
-    shortBio: "I am a PhD Candidate in Digital Marketing & Analytics at Al Akhawayn University. My research focuses on leveraging data-driven insights to understand consumer behavior, effectively combining theoretical knowledge with practical applications in digital marketing strategies.",
+    title: "PhD Candidate in Artificial Intelligence & Digital Marketing",
+    university: "ENCG Settat",
+    location: "Settat, Morocco",
+    email: "H.Toudghi@uhp.ac.ma", // Updated based on ENCG Settat (Hassan 1st University)
+    shortBio: "I am a PhD Candidate in Artificial Intelligence & Digital Marketing at ENCG Settat. My research focuses on leveraging AI and data-driven insights to understand consumer behavior and optimize digital marketing strategies.",
     longBio: [
-        "I am currently pursuing a Master of Science in Digital Marketing and Analytics at Al Akhawayn University in Ifrane. This advanced program allows me to delve deep into the dynamic field of digital marketing, honing my analytical skills and gaining cutting-edge knowledge in the latest marketing technologies and strategies.",
-        "My academic journey at Al Akhawayn University began with a Bachelor’s degree in Business Administration, where I graduated with a double concentration in Management and Logistics. This foundational experience equipped me with a strong understanding of business principles, strategic management, and efficient logistical operations.",
-        "Throughout my academic career, I have developed a robust skill set that combines theoretical knowledge with practical applications. I am passionate about leveraging data-driven insights to craft effective marketing campaigns and drive business growth."
+        "I am currently pursuing a PhD in Artificial Intelligence and Digital Marketing at ENCG Settat. This advanced program allows me to delve deep into the intersection of AI technologies and marketing strategies, honing my analytical skills and gaining cutting-edge knowledge.",
+        "My academic journey began with a strong foundation in Business Administration, where I developed a keen interest in how technology shapes consumer interactions and business value.",
+        "Throughout my academic career, I have developed a robust skill set that combines theoretical knowledge with practical applications. I am passionate about leveraging AI and data analytics to craft effective marketing campaigns and drive business growth."
     ]
 };
 
 export const education = [
     {
-        degree: "PhD Candidate in Digital Marketing & Analytics",
-        university: "Al Akhawayn University",
+        degree: "PhD in Artificial Intelligence & Digital Marketing",
+        university: "ENCG Settat",
         year: "Present",
-        details: "Focus on Consumer Behavior and Data-Driven Marketing."
+        details: "Focus on AI applications in Marketing and Consumer Behavior."
     },
     {
         degree: "MSc in Digital Marketing & Analytics",
@@ -35,6 +35,7 @@ export const education = [
 ];
 
 export const researchInterests = [
+    "Artificial Intelligence in Marketing",
     "Digital Marketing Analytics",
     "Consumer Behavior",
     "Data-Driven Marketing Strategies",
